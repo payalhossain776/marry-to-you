@@ -1,3 +1,32 @@
-h1{
-    background-color: aquamarine;
+
+body{
+    font-family: 'Merriweather', serif;
+}
+.text-primary{
+    color: rgba(231, 109, 38, 0.932);
+}
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(223, 99, 9);
+}
+
+/*nav releted style */
+nav{
+    display: flex;
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
 }
